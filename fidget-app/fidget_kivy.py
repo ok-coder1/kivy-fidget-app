@@ -9,6 +9,7 @@ from kivy.core.window import Window
 class Fidget(App):
     def build(self):
         Window.clearcolor = (0.59215686274, 0.87058823529, 1, 0.75)
+        Window.softinput_mode = "below_target"
         # Desktop - Window.size = (750, 1000)
 
         self.window = GridLayout()
